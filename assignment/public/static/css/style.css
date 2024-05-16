@@ -1,0 +1,142 @@
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #FFF5E1;
+}
+
+
+body.background{
+  background-image: url('../images/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.logo-container{
+	width: 330px;
+	margin: 50px auto 20px;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 20px;
+}
+.navbar-nav{
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 0.625rem;
+}
+.navbar-nav .nav-link{
+	text-align: center;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+	color: red;
+}
+.navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link:focus{
+	color: #D9A0EA;
+}
+
+.nav-item{
+	display: flex;
+	align-items: center;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.coca_cola:hover h1,.coca_cola:hover h2,.coca_cola:hover h3,.coca_cola:hover p{
+	color: #F42131;
+}
+
+#carousel{
+	position: relative;
+}
+#control-nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#control-nav .nav-link.active,.gallery-header .nav-link.active,#nav-models .nav-link.active{
+	background-color: #FDA007;
+	color: #fff;
+}
+#main_text{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	top: 20px;
+	z-index: 100;
+	margin: 0;
+}
+
+.copy-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.history-card{
+	background: none !important;
+	border: none !important;
+	border-top:1px solid rgba(0,0,0,.125) !important;
+	border-radius: 0 !important;
+}
+
+#home,#abouts,.main-container,#interaction,#history-container{
+	margin-bottom: 2rem;
+}
+
+
+.gallery-body{
+	margin-top: 2rem;
+}
+
+#gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#gallery a{
+	width:30%;
+}
+@media (max-width: 768px){
+	#gallery a{width: 48%;}
+}
+.common-container{
+	background-color: rgba(255,255,255,.8);
+	padding: 1.25rem;
+	border-radius: 0.625rem;
+	margin-top: 4rem;
+	max-width: 1600px;
+}
+.common-container h1{
+	font-size: 1.8rem;
+}
+
+
+.common-container p{font-size: 1.1rem;}
+
+
+
+
+
+footer .container{
+	height: 4rem;
+	line-height: 4rem;
+	border: 1px solid #fff;
+	border-radius: 2rem;
+	text-align: center;
+	color: #fff;
+	margin: 3rem auto;
+	background-color: rgba(255,255,255,0.2);
+}
+
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+}
